@@ -4,7 +4,7 @@
       <h1 class="display-2"><p>自己プレゼン</p></h1>
     </div>
     <div class="card-body" style="height: 42rem">
-      <div class="accordion" id="accordionExample">
+      <div class="accordion" id="body_accordion">
         <div class="row">
           <div class="col-3">
             <ul class="list-unstyled">
@@ -14,37 +14,57 @@
                   aria-expanded="false" aria-controls="multiCollapseExample2">トップ画面</button></li>
                 </p>
                 <p>
-                <li><button class="btn" type="button" data-toggle="collapse" data-target="#multiCollapseExample2"
+                <li><button class="btn" type="button" data-toggle="collapse" data-target="#multiCollapseContents"
                   aria-expanded="false" aria-controls="multiCollapseExample2">目次</button></li>
                 </p>
                 <p>
-                <li><button class="btn" type="button" data-toggle="collapse" data-target="#multiCollapseExample2"
+                <li><button class="btn" type="button" data-toggle="collapse" data-target="#multiCollapseMyself"
                   aria-expanded="false" aria-controls="multiCollapseExample2">自己紹介</button></li>
                 </p>
                 <p>
-                <li><button class="btn" type="button" data-toggle="collapse" data-target="#multiCollapseExample2"
+                <li><button class="btn" type="button" data-toggle="collapse" data-target="#multiCollapsePast"
                   aria-expanded="false" aria-controls="multiCollapseExample2">これまでやってきたこと。</button></li>
                 </p>
                 <p>
-                <li><button class="btn" type="button" data-toggle="collapse" data-target="#multiCollapseExample2"
+                <li><button class="btn" type="button" data-toggle="collapse" data-target="#multiCollapseNow"
                   aria-expanded="false" aria-controls="multiCollapseExample2">現在の私について。</button></li>
                 </p>
                 <p>
-                <li><button class="btn" type="button" data-toggle="collapse" data-target="#multiCollapseExample2"
+                <li><button class="btn" type="button" data-toggle="collapse" data-target="#multiCollapseFuture"
                   aria-expanded="false" aria-controls="multiCollapseExample2">これからのこと。</button></li>
                 </p>
               </ul>
             </ul>
           </div>
           <div class="col-9">
-            <div class="collapse multi-collaps" id="multiCollapseExample2" data-parent="#accordionExample">
-              <div class="card card-body" style="height: 42rem">
-                テキスト
+            <div class="collapse multi-collaps" id="multiCollapseTop" data-parent="#body_accordion">
+              <div class="card card-body" style="height: 43rem">
+                トップ
               </div>
             </div>
-            <div class="collapse multi-collaps" id="multiCollapseTop" data-parent="#accordionExample">
-              <div class="card card-body" style="height: 42rem">
-                トップ
+            <div class="collapse multi-collaps" id="multiCollapseContents" data-parent="#body_accordion">
+              <div class="card card-body" style="height: 43rem">
+                目次
+              </div>
+            </div>
+            <div class="collapse multi-collaps" id="multiCollapseMyself" data-parent="#body_accordion">
+              <div class="card card-body" style="height: 43rem">
+                自己紹介
+              </div>
+            </div>
+            <div class="collapse multi-collaps" id="multiCollapsePast" data-parent="#body_accordion">
+              <div class="card card-body" style="height: 43rem">
+                これまでやってきたこと。
+              </div>
+            </div>
+            <div class="collapse multi-collaps" id="multiCollapseNow" data-parent="#body_accordion">
+              <div class="card card-body" style="height: 43rem">
+                現在の私について。
+              </div>
+            </div>
+            <div class="collapse multi-collaps" id="multiCollapseFuture" data-parent="#body_accordion">
+              <div class="card card-body" style="height: 43rem">
+                これからのこと。
               </div>
             </div>
           </div>
