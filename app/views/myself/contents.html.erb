@@ -1,23 +1,127 @@
 <div class="container-fluid">
-  <div class="row">
-    <div class="col-2"></div>
-    <div class="col-8">
-      <h1 class="display-4">目次</h1>
+  <div class="card border-light mb-3" style="max-width: 100rem;">
+    <div class="card-header">
+      <h1 class="display-2"><p>自己プレゼン</p></h1>
     </div>
-    <div class="col-3">
-      <ul class="list-unstyled">
-        <ul>
-          <li>トップ画面</li>
-          <li>目次</li>
-          <li>自己紹介</li>
-          <li>これまでやってきたこと</li>
-          <li>現在の私について</li>
-          <li>これからのこと</li>
+    <div class="card-body" style="height: 42rem">
+
+      <div class="row">
+        <div class="col-3">
+          <ul class="list-unstyled">
+            <ul>
+              <p>
+              <li><button class="btn" type="button" data-toggle="collapse" data-target="#multiCollapseTop"
+                aria-expanded="false" aria-controls="multiCollapseExample2">トップ画面</button></li>
+              </p>
+
+
+
+
+
+              <li>
+<div class="accordion" id="accordionExample">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h5 class="mb-0">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Collapsible Group Item #1
+        </button>
+      </h5>
     </div>
-    <div class="col-7">.col-6<br>Subsequent columns continue along the new line.</div>
+
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="card-body">
+        text1
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Collapsible Group Item #2
+        </button>
+      </h5>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <div class="card-body">
+        text2
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Collapsible Group Item #3
+        </button>
+      </h5>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+      <div class="card-body">
+        text3
+      </div>
+    </div>
+  </div>
+</div>
+              </li>
+
+
+
+
+              <p>
+              <li><button class="btn" type="button" data-toggle="collapse" data-target="#multiCollapseExample2"
+                aria-expanded="false" aria-controls="multiCollapseExample2">目次</button></li>
+              </p>
+              <p>
+              <li><button class="btn" type="button" data-toggle="collapse" data-target="#multiCollapseExample2"
+                aria-expanded="false" aria-controls="multiCollapseExample2">自己紹介</button></li>
+              </p>
+              <p>
+              <li><button class="btn" type="button" data-toggle="collapse" data-target="#multiCollapseExample2"
+                aria-expanded="false" aria-controls="multiCollapseExample2">これまでやってきたこと。</button></li>
+              </p>
+              <p>
+              <li><button class="btn" type="button" data-toggle="collapse" data-target="#multiCollapseExample2"
+                aria-expanded="false" aria-controls="multiCollapseExample2">現在の私について。</button></li>
+              </p>
+              <p>
+              <li><button class="btn" type="button" data-toggle="collapse" data-target="#multiCollapseExample2"
+                aria-expanded="false" aria-controls="multiCollapseExample2">これからのこと。</button></li>
+              </p>
+        </div>
+        <div class="col-9">
+          <div class="collapse multi-collaps" id="multiCollapseExample2">
+            <div class="card card-body" style="height: 42rem">
+              テキスト
+            </div>
+          </div>
+          <div class="collapse multi-collaps" id="multiCollapseTop">
+            <div class="card card-body" style="height: 42rem">
+              トップ
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 
 
 
-<%= link_to 'トップ', myself_path %>
+<div class="row">
+
+    <div class="collapse multi-collapse" id="multiCollapseExample1">
+      <div class="card card-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+      </div>
+    </div>
+
+
+    <div class="collapse multi-collapse" id="multiCollapseExample2">
+      <div class="card card-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+      </div>
+    </div>
+
+</div>
