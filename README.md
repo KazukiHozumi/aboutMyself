@@ -4,4 +4,4 @@ Ruby version: 2.5.1
 Rails version: 5.2.1
 
 - 実行環境
-MacBookPro13inch(自分の環境)のみを想定
+MacBookPro13inch2018(自分の環境)のみを想定
